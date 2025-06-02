@@ -1,0 +1,42 @@
+.formWrap {
+  border: 1px solid rgb(35, 68, 145);
+  border-radius: 8px;
+  padding: 20px;
+  width: 268px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.formFieldWrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 12px;
+}
+
+.fieldwrap {
+  padding: 6px 10px;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #02021a;
+  background-color: #f0f0f0;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #e0e0e0;
+}
+
+.error {
+  color: rgb(157, 18, 67);
+}
