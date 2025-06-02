@@ -1,6 +1,6 @@
 import css from "./SearchBox.module.css";
 import { useDispatch, useSelector } from "react-redux";
-import { changeFilter } from "../../redux/filtersSlice";
+import { setNameFilter } from "../../redux/filtersSlice";
 
 export default function SearchBox() {
   const dispatch = useDispatch();
@@ -12,7 +12,7 @@ export default function SearchBox() {
       <input
         type="text"
         value={value}
-        onChange={(event) => dispatch(changeFilter(event.target.value))}
+        onChange={(event) => dispatch(setNameFilter(event.target.value))}
         className={css.textWrap}
       />
     </div>

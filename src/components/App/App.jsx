@@ -6,7 +6,7 @@ import { useDebounce } from "use-debounce";
 import ContactForm from "../ContactForm/ContactForm";
 import ContactList from "../ContactList/ContactList";
 import SearchBox from "../SearchBox/SearchBox";
-import { deleteContact } from "../../redux/contactsSlice";
+import { deleteContact } from "../../redux/contactsOps";
 
 export default function App() {
   const contacts = useSelector((state) => state.contacts.items);

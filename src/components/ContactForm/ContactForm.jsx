@@ -4,7 +4,7 @@ import { useId } from "react";
 import * as Yup from "yup";
 import "yup-phone-lite";
 import { useDispatch } from "react-redux";
-import { addContact } from "../../redux/contactsSlice";
+import { addContact } from "../../redux/contactsOps";
 
 const initialValues = {
   name: "",

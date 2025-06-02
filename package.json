@@ -1,5 +1,5 @@
 {
-  "name": "goit-react-hw-06",
+  "name": "goit-react-hw-07",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
+    "axios": "^1.9.0",
     "clsx": "^2.1.1",
     "formik": "^2.4.6",
     "nanoid": "^5.1.5",
